@@ -1,11 +1,13 @@
 import Header from './components/Header'
-import inputForm from './components/inputForm'
+import InputForm from './components/InputForm'
 import meme from './components/meme'
 
 function App() {
   return (
     <div>
       <Header />
+
+      <InputForm />
     </div>
   );
 }
