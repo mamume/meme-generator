@@ -5,6 +5,7 @@ import meme from './components/meme'
 function App() {
   return (
     <div>
+      <Header />
     </div>
   );
 }
