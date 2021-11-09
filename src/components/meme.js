@@ -1,6 +1,9 @@
 function Meme(props) {
     return (
-        <img src={props.currentMeme} alt='meme' />
+        <img
+            src={props.currentMeme}
+            alt='meme'
+        />
     );
 }
 

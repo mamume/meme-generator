@@ -6,10 +6,10 @@ import Typography from '@mui/material/Typography';
 
 function Header() {
     return (
-        <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static">
+        <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+            <AppBar position="static" sx={{ backgroundColor: "white", py: 1, maxWidth: 1000 }}>
                 <Toolbar>
-                    <Typography variant="h3" component="div" sx={{ flexGrow: 1 }}>
+                    <Typography variant="h3" component="div" sx={{ flexGrow: 1, color: '#C00205', fontFamily: 'fantasy' }}>
                         Meme Generator
                     </Typography>
 
