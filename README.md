@@ -2,7 +2,11 @@
 A Meme Generator using React
 
 ## Installation
-  - yarn install
+```
+  yarn install
+```
 
 ## Launch
-  - yarn start
+```
+  yarn start
+```
